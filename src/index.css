@@ -2,18 +2,12 @@
   margin: 0;
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.gray {
+  color: #918E9B; 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bold {
+  font-weight: bold;
 }
 
 nav {
@@ -25,5 +19,50 @@ nav {
 }
 
 .nav__logo {
-  max-width: 100px;
+  max-width: 100px;;
+}
+
+section {
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__photo {
+  max-width: 400px;
+  align-self: center;
+}
+
+.hero__header {
+  margin-bottom: 16px; 
+}
+
+.hero__text {
+  margin-top: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+}
+
+.card__image {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card__stats {
+  display: flex;
+  align-items: center;
+}
+
+.card__star {
+  height: 14px;
 }
